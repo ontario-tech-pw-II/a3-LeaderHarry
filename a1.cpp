@@ -72,6 +72,7 @@ void fwritenames_reverse(ofstream &f,char *list [])
 	for(int j = i-1; j >= 0 ; --j)
 	{
 		// your code is here
+		f << list[j];
 	}
 }
 void freenames(char *list [])
